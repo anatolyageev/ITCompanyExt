@@ -26,9 +26,13 @@ namespace ITCompanyExt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(!String.IsNullOrWhiteSpace(textBox1.Text) && !String.IsNullOrWhiteSpace(textBox2.Text)){
-               Employee emp = UserAuthController.Authenticate(new UserAuthData(textBox1.Text, textBox2.Text));
+            Employee emp = new Employee();
+          //  Employee emp;
+            if (!String.IsNullOrWhiteSpace(textBox1.Text) && !String.IsNullOrWhiteSpace(textBox2.Text)){
+               emp = UserAuthController.Authenticate(new UserAuthData(textBox1.Text, textBox2.Text));
             }
+           
+            MessageBox.Show(emp.ToString());
         }
     }
 }

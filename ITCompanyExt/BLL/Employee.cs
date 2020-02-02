@@ -14,6 +14,24 @@ namespace ITCompanyExt.BLL
         protected double Salary { get; set; }
         protected string Department { get; set; }
 
+        public Employee()
+        {
+        }
+
+        public Employee(long id, string name, string position, double salary, string department)
+        {
+            Id = id;
+            Name = name;
+            Position = position;
+            Salary = salary;
+            Department = department;
+        }
+
+        public override string ToString()
+        {
+            return Name.ToString();
+        }
+
         //void MeDelegMeating EventHandler(Meeting m)
         //{
 

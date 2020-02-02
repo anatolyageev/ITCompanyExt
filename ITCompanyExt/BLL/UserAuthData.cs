@@ -8,9 +8,9 @@ namespace ITCompanyExt.BLL
 {
     class UserAuthData
     {
-        private long id;
-        private string userName;
-        private string password;
+        public long id { get; set; }
+        public string userName { get; set; }
+        public string password { get; set; }
 
         public UserAuthData(string userName, string password)
         {
