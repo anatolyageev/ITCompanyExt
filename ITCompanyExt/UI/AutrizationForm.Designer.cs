@@ -42,7 +42,7 @@
             this.textBox1.Font = new System.Drawing.Font("JetBrains Mono", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(127, 119);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(124, 23);
+            this.textBox1.Size = new System.Drawing.Size(124, 39);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
@@ -51,7 +51,7 @@
             this.textBox2.Location = new System.Drawing.Point(127, 193);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(124, 23);
+            this.textBox2.Size = new System.Drawing.Size(124, 39);
             this.textBox2.TabIndex = 1;
             // 
             // OkButton
@@ -83,7 +83,7 @@
             this.label1.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(32, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 20);
+            this.label1.Size = new System.Drawing.Size(340, 39);
             this.label1.TabIndex = 4;
             this.label1.Text = "Please Authorize:";
             // 
@@ -93,7 +93,7 @@
             this.label2.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(12, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 20);
+            this.label2.Size = new System.Drawing.Size(207, 39);
             this.label2.TabIndex = 4;
             this.label2.Text = "User name:";
             // 
@@ -103,15 +103,15 @@
             this.label3.Font = new System.Drawing.Font("JetBrains Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(12, 193);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 20);
+            this.label3.Size = new System.Drawing.Size(188, 39);
             this.label3.TabIndex = 4;
             this.label3.Text = "Password:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(263, 340);
+            this.ClientSize = new System.Drawing.Size(851, 515);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

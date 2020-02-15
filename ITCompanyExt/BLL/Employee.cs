@@ -8,11 +8,11 @@ namespace ITCompanyExt.BLL
 {
     public class Employee
     {
-        protected long Id { get; set; }
-        protected string Name { get; set; }
-        protected string Position { get; set; }
-        protected double Salary { get; set; }
-        protected string Department { get; set; }
+        public long Id { get; set; }
+        public string Name { get; set; }
+        public string Position { get; set; }
+        public double Salary { get; set; }
+        public string Department { get; set; }
 
         public Employee()
         {
